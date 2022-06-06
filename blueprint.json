@@ -11,12 +11,12 @@
 	},
 	"resources": {
 		"cpus": 10,
-		"memory": 256
+		"memory": 512
 	},
 	"ports": [
 		{
-			"container_port": 443,
-			"host_port": 443
+			"container_port": 80,
+			"host_port": 80
 		}
 	],	
 	"binding_target": {
