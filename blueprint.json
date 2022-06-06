@@ -1,8 +1,8 @@
 {
-	"identifier": "container-service",
+	"identifier": "abs",
 	"about": {
-		"title": "AWS Container Service",
-		"explanation": "An application blueprint for defining an AWS container service"
+		"title": "Managed Functions ABS",
+		"explanation": "Define the container service for Managed Functions ABS"
 	},
 	"compute_service": {
 		"default": {
