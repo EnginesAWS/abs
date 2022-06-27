@@ -5,9 +5,7 @@
 		"explanation": "Define the container service for Managed Functions ABS"
 	},
 	"compute_service": {
-		"default": {
-			"identifier": "container_service"
-		}
+		"identifier": "container_service"
 	},
 	"resources": {
 		"cpus": 10,
