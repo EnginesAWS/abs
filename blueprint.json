@@ -7,7 +7,7 @@
 	"compute_service": {
 		"identifier": "container_service"
 	},
-	"resources": {
+	"dimensions": {
 		"cpus": 10,
 		"memory": 512
 	},
