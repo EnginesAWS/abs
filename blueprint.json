@@ -26,8 +26,8 @@
 		"resources": [
 		{
 			"type": "load_balancer_target_group",
-			"configuration": {
 			"identifier" : "abs-tg",
+			"configuration": {
 			"port": 84
 			}
 		},{
