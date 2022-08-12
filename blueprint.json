@@ -23,20 +23,41 @@
 			"essential": true
  		}
 	},
-		"resources": [
+	"resources": [
+		{
+			"type": "container_task_definition",
+			"identifier": "abs"
+		},
+		{
+			"type": "load_balancer",
+			"identifier": "abs",
+			"configuration": {
+				"subnets": [
+					"subnet_a",
+			    		"subnet_b"
+				],
+				"security_groups": [
+					"security_group"
+				]
+			}
+		},
 		{
 			"type": "load_balancer_target_group",
-			"identifier" : "abs-tg",
+			"identifier": "abs",
 			"configuration": {
-			"vpc_binding" : "vpc",
-			"port": 84
+				"port": 84
 			}
-		},{
+		},
+		{
+			"type": "load_balancer_listener",
+			"identifier": "abs"
+		},
+		{
 			"type": "subnet",
-			"identifier": "subnet_abs",
+			"identifier": "abs",
 			"configuration": {
 				"cidr_block": "10.111.50.0/24"
 			}
 		}
-		]
+	]
 }
