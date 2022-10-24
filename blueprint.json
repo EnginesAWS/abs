@@ -20,5 +20,14 @@
 			"container_port": 84,
 			"host_port": 84
 		}
+	],
+	"resources": [
+		{
+			"type": "subnet",
+			"identifier": "abs",
+			"configuration": {
+				"cidr_block": "10.111.50.0/24"
+			}
+		}
 	]
 }
