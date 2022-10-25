@@ -24,9 +24,16 @@
 	"resources": [
 		{
 			"type": "subnet",
-			"identifier": "abs",
+			"identifier": "^^blueprint_identifier^^_a",
 			"configuration": {
-				"cidr_block": "10.111.50.0/24"
+				"cidr_block": "10.111.84.0/24"
+			}
+		},
+		{
+			"type": "subnet",
+			"identifier": "^^blueprint_identifier^^_b",
+			"configuration": {
+				"cidr_block": "10.111.184.0/24"
 			}
 		}
 	]
